@@ -12,12 +12,61 @@
       color: #fff;
       text-align: center;
     }
+    .card-img-top {
+        width: 100%;
+        height: 12vw;
+        object-fit: cover;
+    }
   </style>
 <body>
     <div class="container">
-      <div class="container-fluid py-5 text-center jumbo">
+      <div class="p-5 mb-4 jumbo">
             <h1 class="display-1">Jumbotron</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://picsum.photos/id/264/414/230" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <span class="badge text-bg-primary">Primary</span>
+                  <span class="badge text-bg-secondary">Secondary</span>
+                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab quia temporibus eos tempore facilis nobis velit ratione id ea, atque qui ducimus optio. Suscipit mollitia, quasi laudantium porro doloremque ipsa.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">mario</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://picsum.photos/id/247/414/230" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <span class="badge text-bg-info">Info</span>
+                  <span class="badge text-bg-light">Light</span>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus veniam magni incidunt natus odio labore consectetur repellat rem tenetur maxime aspernatur accusamus numquam rerum nesciunt, ratione porro perferendis at eligendi?</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">has</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <iframe width="100%" src="https://www.youtube.com/embed/4ZWw6yh-Fq4?si=8od4ltXQVf9n9Ug7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" class="card-img-top" allowfullscreen></iframe>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <span class="badge text-bg-warning">Warning</span>
+                  <span class="badge text-bg-danger">Danger</span>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere unde maiores sint et, modi, nulla harum culpa repudiandae dolores, velit ut ipsa vitae veniam at asperiores doloribus deleniti excepturi suscipit!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">small</small>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
     </div>
